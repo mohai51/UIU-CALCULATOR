@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image:url('Untitled\ design\ \(2\).png');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1389a646;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 64, 77, 0.1);
+    text-align: center;
+    width: 500px;
+
+}
+
+h1 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #f4000073;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff8000;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ff37;
+}
+
+.hidden {
+    display: none;
+}
+
+#result p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#result span {
+    font-weight: bold;
+    color: #fafafa;
+}
+
+
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
